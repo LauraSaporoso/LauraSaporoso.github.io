@@ -1,0 +1,157 @@
+body {                                        /*Palette PRINCIPALI #eaece5  #b2c2bf #c0ded9 #3b3a30 */
+    background-color: #c0ded9;
+}
+*{ margin: 0;
+     padding: 0;
+     font-family: 'Open Sans', sans-serif; 
+}
+nav {                                         /*menu intero*/
+    height: 80px;                                         
+    background-color: #3b3a30; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+   
+}
+.titolo {
+ color: #c0ded9;
+ width: 40%;
+ padding-left: 55px;
+}
+.menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: #eaece5;
+    text-transform: uppercase;
+    position: relative;
+}
+.menu a:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #eaece5;
+    transition: all 0.5s linear;
+}
+.menu a:hover:before {
+    width: 100%;
+}
+.menu a:hover:after {
+    width: 100%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+ .fa:hover {
+    opacity: 0.7;
+}
+
+  .fa-facebook {
+ 
+    color: white;
+  }
+  .fa-instagram {
+    
+    color: white;
+}
+img {
+  width: 350px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 50px;
+ padding-right: 150px;
+ padding-left: 50px;
+  border-radius: 10px;
+  float: left;  
+}
+h2  {
+    font-size: 80px;
+    display: block!important;
+}
+.testo1 {
+    margin-top: 100px;
+    margin-left: 500px;
+    color: #3b3a30;
+    font-size: 40px;
+}
+h3 { 
+                               /*About me*/
+    font-size: 40px;
+    text-align: center;
+    color:#b2c2bf;
+    padding-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
+} 
+.testo2 p {                           /*Testo About me*/
+    font-size: 30px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color:#eaece5;
+}
+.body2 {                               /*About me + testo*/
+    padding-top: 5px;
+    padding-bottom: 100px;
+   background-color: #3b3a30;
+}
+.body3 {
+    text-align: center;
+    padding-bottom: 145px;
+    background-color:#b2c2bf;
+}
+.testo3 p {                           /*Testo Cosa so fare*/
+        font-size: 30px;
+        text-align: center;
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        color: #eaece5;
+}
+.body4 {
+  
+padding-bottom: 100px;
+background-color:#3b3a30;
+}
+.testo4 p {                           /*Testo Contatti*/
+    font-size: 30px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #eaece5;
+}
+.social {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 70px;
+  
+}
