@@ -157,7 +157,7 @@ background-color:#3b3a30;
 }
 
 @media (min-width: 600px) {
-   body {
+   h3 {
        font-size: 1.25rem;
     }
 }
